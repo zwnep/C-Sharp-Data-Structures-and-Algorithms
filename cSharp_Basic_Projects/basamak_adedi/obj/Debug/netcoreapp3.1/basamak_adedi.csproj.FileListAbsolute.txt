@@ -1,0 +1,13 @@
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/bin/Debug/netcoreapp3.1/basamak_adedi.deps.json
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/bin/Debug/netcoreapp3.1/basamak_adedi.runtimeconfig.json
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/bin/Debug/netcoreapp3.1/basamak_adedi.runtimeconfig.dev.json
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/bin/Debug/netcoreapp3.1/basamak_adedi.dll
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/bin/Debug/netcoreapp3.1/basamak_adedi.pdb
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/obj/Debug/netcoreapp3.1/basamak_adedi.csproj.AssemblyReference.cache
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/obj/Debug/netcoreapp3.1/basamak_adedi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/obj/Debug/netcoreapp3.1/basamak_adedi.AssemblyInfoInputs.cache
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/obj/Debug/netcoreapp3.1/basamak_adedi.AssemblyInfo.cs
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/obj/Debug/netcoreapp3.1/basamak_adedi.csproj.CoreCompileInputs.cache
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/obj/Debug/netcoreapp3.1/basamak_adedi.dll
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/obj/Debug/netcoreapp3.1/basamak_adedi.pdb
+/Users/zwnep/Desktop/veri_yapilari/cSharp_Basic_Projects/basamak_adedi/obj/Debug/netcoreapp3.1/basamak_adedi.genruntimeconfig.cache
