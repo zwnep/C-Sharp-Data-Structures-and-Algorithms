@@ -298,15 +298,6 @@ namespace data_structure_btree
             return find(binarytree,indis*2+1,aranan) + find(binarytree,indis*2+2,aranan);
         }
 
-        //3- Linked list ile oluşturulmuş bir binarytree'de search yap.(recursive)
-
-
-
-
-
-
-
-
         #endregion
 
 
