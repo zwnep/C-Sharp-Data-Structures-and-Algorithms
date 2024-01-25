@@ -185,6 +185,8 @@ namespace data_structure_btree
             btree[13] = 0;
             btree[14] = 35;
 
+            Console.WriteLine(Ara(btree,12));
+
             //istersek elemanları yazdırmak için ayrı bir metod kullanabiliriz.
             static void write(Blockbtree bt)
             {
@@ -199,7 +201,6 @@ namespace data_structure_btree
 
 
         //B-Tree'leri Linked Listler yardımıyla oluşturma
-
         class Blockbtree
         {
             public int data;
@@ -222,7 +223,7 @@ namespace data_structure_btree
             return bNode;
         }
         //Son olarak ise root'a yani köke ihtiyaç var.
-        static Blockbtree root = null;
+        //static Blockbtree root = null;
 
         //*************************************************************
 
@@ -264,7 +265,7 @@ namespace data_structure_btree
         //}
         //Yazdığımız kodları Main() içerisinde yazdıralım.
 
-        //Örnek sorular - BTree:
+        //Örnek sorular - Binary Tree:
         #region
         //1- Binary treede bir elemanın olup olmadığını buldur.(hem normal hem recursive çöz)
         //2- Binary treede bir elemanın kaç kez tekrar ettiğini buldur.(hem normal hem recursive çöz)
@@ -275,22 +276,36 @@ namespace data_structure_btree
 
         //Çözümleri:
         //1- Binary treede bir elemanın olup olmadığını buldur.(hem normal hem recursive çöz)
+        static int Ara(Blockbtree root, int aranan){
+            if (root == null) return 0; // Eğer kök düğüm null ise, değer bulunamamış demektir.
 
-        static int ara(int[] btree, int indis, int aranan)
-        {
-            if (indis >= btree.Length) return 0;
-            if (btree[indis] < aranan) return ara(btree, indis * 2 + 2, aranan);
-            else if (btree[indis] == aranan) return 1;
-            else return ara(btree, indis*2+1, aranan);
+            if (root.data == aranan) return 1; // Değer bulunduğunda 1 döndürülür.
+
+            // Sol ve sağ alt ağaçlarda arama yapılır.
+            int solSonuc = Ara(root.left, aranan);
+            int sagSonuc = Ara(root.right, aranan);
+
+            // Sol veya sağ alt ağaçlardan herhangi birinde bulundu ise 1 döndürülür.
+            if (solSonuc == 1 || sagSonuc == 1) return 1;
+
+            // Değer hiçbir yerde bulunamadı ise 0 döndürülür.
+            return 0;
         }
+
+
+        // static int ara(int[] btree, int indis, int aranan)
+        // {
+        //     if (indis >= btree.Length) return 0;
+        //     if (btree[indis] < aranan) return ara(btree, indis * 2 + 2, aranan);
+        //     else if (btree[indis] == aranan) return 1;
+        //     else return ara(btree, indis*2+1, aranan);
+        // }
 
         //2- Binary tree'de bir elemanın kaç kez tekrar ettiğini buldur.(hem normal hem recursive çöz)
 
         //(RECURSİVE)
         static int[] binarytree = new int[100];
-
         static int adet = 0;
-
         static int find(int[] binarytree, int indis, int aranan)
         {
             if (indis <= binarytree.Length) return 0;
