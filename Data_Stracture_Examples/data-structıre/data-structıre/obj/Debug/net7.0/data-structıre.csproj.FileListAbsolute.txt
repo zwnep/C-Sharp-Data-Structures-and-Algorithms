@@ -1,0 +1,15 @@
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/bin/Debug/net7.0/data-structıre
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/bin/Debug/net7.0/data-structıre.deps.json
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/bin/Debug/net7.0/data-structıre.runtimeconfig.json
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/bin/Debug/net7.0/data-structıre.dll
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/bin/Debug/net7.0/data-structıre.pdb
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/data-structıre.csproj.AssemblyReference.cache
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/data-structıre.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/data-structıre.AssemblyInfoInputs.cache
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/data-structıre.AssemblyInfo.cs
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/data-structıre.csproj.CoreCompileInputs.cache
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/data-structıre.dll
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/refint/data-structıre.dll
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/data-structıre.pdb
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/data-structıre.genruntimeconfig.cache
+/Users/zeynepdemirtas/Documents/GitHub/data-stracture/data-structıre/data-structıre/obj/Debug/net7.0/ref/data-structıre.dll
